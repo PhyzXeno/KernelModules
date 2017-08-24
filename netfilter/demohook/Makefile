@@ -1,4 +1,4 @@
-KERNEL_SRC = "/root/Desktop/linux-4.9.18"
+KERNEL_SRC ?= /lib/modules/$(shell uname -r)/build
 
 obj-m += drop.o
 
